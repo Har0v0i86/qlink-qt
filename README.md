@@ -2,7 +2,7 @@
 
 C++ / Qt Widgets 课程项目，支持单人限时挑战和同屏双人对战，包含连接路径判定、角色移动、消除动画、道具、暂停与存档。本仓库用于展示游戏交互、状态管理和测试实践。
 
-> 这是**不含原图片素材的代码展示版**。可以构建程序及运行交互逻辑测试，但人物、地图与图标无法完整显示；不是开箱即玩的完整游戏发行包。
+> 这是**不含原图片素材的代码展示版**。可以构建程序及运行交互逻辑测试，但人物、地图与图标无法完整显示；
 
 ## 功能与实现
 
@@ -35,7 +35,7 @@ ctest --test-dir build --output-on-failure
 
 ### 补充本地素材
 
-`resource.qrc` 保留了 `/images` 资源前缀。若持有可用的授权素材，可在本地添加 `Actor1.png`、`Actor3.png`、`Dungeon_A2.png`、`SF_Outside_B.png`、`CaveBar_B.png`、`IconSet.png`、`fsm_Forest01_E.png`，并在 qrc 的 qresource 节点中逐一添加 `<file>文件名.png</file>` 后重建。图集尺寸与排列需对应 `Character.cpp` 和 `GameBoard.cpp` 中的裁剪规则，不能用任意图片替代。PNG 已被 `.gitignore` 排除，避免误上传原素材。
+`resource.qrc` 保留了 `/images` 资源前缀。若持有可用的授权素材，可在本地添加 `Actor1.png`、`Actor3.png`、`Dungeon_A2.png`、`SF_Outside_B.png`、`CaveBar_B.png`、`IconSet.png`、`fsm_Forest01_E.png`，并在 qrc 的 qresource 节点中逐一添加 `<file>文件名.png</file>` 后重建。图集尺寸与排列需对应 `Character.cpp` 和 `GameBoard.cpp` 中的裁剪规则，不能用任意图片替代。
 
 ## 代码导航
 
@@ -60,4 +60,4 @@ Windows 建议在纯英文路径下构建；本次中文路径导致 moc 无法�
 
 ## 项目说明
 
-作者：罗唯恩（[Har0v0i86](https://github.com/Har0v0i86)）。源自 SEP 软件工程实践课程项目。发布版整理了 Qt 6 CMake 构建和测试入口，移除了构建缓存与个人 IDE 配置，保留核心游戏逻辑。未附加统一开源许可证。
+作者：[Har0v0i86]。源自 SEP 软件工程实践课程项目。发布版整理了 Qt 6 CMake 构建和测试入口，移除了构建缓存与个人 IDE 配置，保留核心游戏逻辑。未附加统一开源许可证。
