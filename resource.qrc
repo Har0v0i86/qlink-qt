@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/images">
+        <!-- Original textures intentionally omitted from the public portfolio. -->
+    </qresource>
+</RCC>

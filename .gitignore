@@ -1,0 +1,13 @@
+/build*/
+.qtcreator/
+*.user
+*.user.*
+*.exe
+*.dll
+*.o
+*.obj
+savegame.dat
+.DS_Store
+.env
+# Original course image assets are excluded from this public code repository.
+*.png
